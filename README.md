@@ -4,7 +4,7 @@
 Jahel S.León R. (jleonro@unal.edu.co)* <br>
 Juan C. Mora P. (jumorap@unal.edu.co)* \\
 ---
-***NOTE:** BECAUSE OF THE SIZE OF THE DATA, IF YOU WANT TO REPRODUCE THE FULL EXPERMIENT BY YOUR OWN PLEASE GO TO THE FOLOWING KAGLE NOTEBOOK https://www.kaggle.com/jahelsantiagoleon/waifu-net
+***NOTE:** BECAUSE OF THE SIZE OF THE DATA, IF YOU WANT TO REPRODUCE THE FULL EXPERMIENT BY YOUR OWN PLEASE GO TO THE FOLOWING KAGLE NOTEBOOK https://www.kaggle.com/jahelsantiagoleon/waifu-net. BUT IF YOU WANT TO UNDERSTAND THE FULL PROCESS, PLEASE GO TO THE FOLOWING COLAB NOTEBOOK https://colab.research.google.com/drive/1_Z-E6Cia-xCtO1CkYg6yi5_3x3ImrCEe#scrollTo=hR5jbgE0yozB
 
 # Introduction:
 
