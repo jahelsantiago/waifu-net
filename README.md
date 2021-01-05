@@ -12,6 +12,8 @@ In anime (japanese animation)  the main characters present personality archetype
 
 The main objective of our project is to create a neural network that can classify a given image into their personality archetype. For example if we present the following image, the model should classify it as a tsundere.
 
+![1](https://user-images.githubusercontent.com/47577344/103642572-53994200-4f21-11eb-9b7f-b1934aea1675.jpg)
+
 For that pourpuse, we divided the main goal in the followings tasks:
 * **Construction of waifus dere-type Database:** It is necessary to create a database with the main characters of every dere-type. 
 * **Images Mining:** It is necessary to create our own images dataset because there is no one avalive of this topic on the internet. For that purpose we will mine 200 images for every waifu in the previously created database.
@@ -19,3 +21,10 @@ For that pourpuse, we divided the main goal in the followings tasks:
 * **Model construction:** It's necessary to create a model taking into account the small data set and the class imbalance presented in the dataset.
 
 To get the dataset we designed a function using python module Selenium Chromedriver that can scrap from the internet any amount of images of a given topic. Then we created a list of the main representative characters of every personality archetype to scrape 1000 images of each one. Additionally we divide the data set in a careful way avoiding overlapping of characters between the train, test and dev dataset.
+
+Then to classify the image we train a simple neural network architecture using keras.
+
+What i´ve learned:
+- The preparation of the data is more important than the model by itself.
+- Smpler models work better than pre-created models like ResNet, EfficientNet etc with small data sets.
+- Using internet images for the data set is not possible at all if those are not preprocessed first.
